@@ -9,6 +9,7 @@ body{
 }
 h1{
     font-size: 28px;
+    color: #E8B007;
 }
 a{
     text-decoration: none;
@@ -25,14 +26,19 @@ footer{
 }
 
 /* HEADER*/
-
-section.header img{
-    max-width: 180px;
-    border-radius: 50%;
+section.header {
+    width: 100%; /* Ocupa toda a largura */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 40px 0 0 30px; /* Remove espaçamento interno */
 }
 
+section.header img {
+    width: 60%; /* Largura total do container (600px definido no section) */
+    max-height: 300px; /* Altura máxima ajustável */
+    }
+
 /*LINKS*/
-section.links .link-item{
+section.links .link-item {
     width: 100%;
     margin-bottom: 16px;
 }
@@ -50,5 +56,21 @@ section.links .link-item a{
 
 /* FOOTER */
 footer a {
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0 0 40px;
+    color: #ffffff;
+    font-size: 30px;
+    }
+footer c {
+    text-align: center;
+    font-weight: bold;
+    color: #e0b100;
+    font-size: 20px;
+    padding: 0 0 0 40px;
+    }
+
+footer b {
     color:rgb(0,0,0,0.5);
+    padding: 0 0 0 40px;
     }
