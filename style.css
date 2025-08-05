@@ -56,25 +56,25 @@ section.links .link-item a{
 }
 
 /* FOOTER */
+footer {
+  text-align: center;
+}
 footer a {
-    text-align: center;
-    font-weight: bold;
-    padding: 0 0 0 40px;
-    color: #ffffff;
-    font-size: 30px;
-    }
+  font-weight: bold;
+  padding-left: 40px;
+  color: #ffffff;
+  font-size: 30px;
+}
 footer c {
-    text-align: center;
-    font-weight: bold;
-    color: #e0b100;
-    font-size: 20px;
-    padding: 0 0 0 40px;
-    }
-
+  font-weight: bold;
+  color: #e0b100;
+  font-size: 20px;
+  padding-left: 40px;
+}
 footer b {
-    color:rgb(0,0,0,0.5);
-    padding: 0 0 0 40px;
-    }
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 40px;
+}
 
 
 
