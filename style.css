@@ -57,24 +57,29 @@ section.links .link-item a{
 
 /* FOOTER */
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
-footer a {
+footer a { /* ou footer .a se você usar spans */
   font-weight: bold;
-  padding-left: 40px;
   color: #ffffff;
   font-size: 30px;
+  padding: 0; /* remove recuo */
 }
 footer c {
   font-weight: bold;
   color: #e0b100;
   font-size: 20px;
-  padding-left: 40px;
+  padding: 0;
 }
 footer b {
   color: rgba(0, 0, 0, 0.5);
-  padding-left: 40px;
+  padding: 0;
 }
+
+
 
 
 
