@@ -25,18 +25,19 @@ footer{
     margin-bottom: 20px;
 }
 
-/* HEADER*/
 section.header {
-    width: 100%; /* Ocupa toda a largura */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    padding: 40px 0 0 30px; /* Remove espaçamento interno */
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;    /* centraliza verticalmente, se houver altura definida */
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
 }
-
 section.header img {
-    width: 60%; /* Largura total do container (600px definido no section) */
-    max-height: 300px; /* Altura máxima ajustável */
-    }
-
+  width: 60%;
+  max-height: 300px;
+  display: block;
+}
 /*LINKS*/
 section.links .link-item {
     width: 100%;
@@ -74,5 +75,6 @@ footer b {
     color:rgb(0,0,0,0.5);
     padding: 0 0 0 40px;
     }
+
 
 
