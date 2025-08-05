@@ -60,7 +60,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  
 }
 footer a { /* ou footer .a se você usar spans */
   font-weight: bold;
@@ -73,14 +73,13 @@ footer c {
   color: #e0b100;
   font-size: 20px;
   padding: 0;
+  gap: 40px;
 }
 footer b {
   color: rgba(0, 0, 0, 0.5);
   padding: 0;
 }
-footer a + c {
-  margin-left: -40px;
-}
+
 
 
 
